@@ -21,7 +21,7 @@ public class StateMachineManager : MonoBehaviour
 
     public void OnChangeLogger() 
     {
-	Debug.Log("it shoudl work but it doesnt");
+	Debug.Log("this works but eats a letter");
 	//asdf = inputField.GetComponent<Text>().text;
 	asdf = m_TextComponent.GetComponent<TMP_Text>().text;
 	Debug.Log(asdf);
@@ -29,7 +29,7 @@ public class StateMachineManager : MonoBehaviour
 
     public void Extra(TMP_Text wide) 
     {
-	Debug.Log("it shoudl work but it doesnt");
+	Debug.Log("this works but eats a letter");
 	asdf = wide.GetComponent<TMP_Text>().text;
 	Debug.Log(asdf);
     }
