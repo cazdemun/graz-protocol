@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Runtime.InteropServices;
 
 public class LoadFinal : MonoBehaviour
 {
+    [DllImport("__Internal")]
+    private static extern void ChangeScene();
+
     [SerializeField]
     private float timeFinal;
 
@@ -35,7 +39,8 @@ public class LoadFinal : MonoBehaviour
        derecha.SetActive(false);
        izquierda.SetActive(false);
        userRef = Globals.userState;
-       indice = userRef.getMovement() + 1;                  
+       indice = userRef.getMovement() + 1;
+       ChangeScene();                  
     }
 
     private void Update()
