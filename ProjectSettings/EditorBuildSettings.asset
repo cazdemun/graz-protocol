@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GrazScene.unity
     guid: 30993d6440550d249b80f1b9bc3e2335
+  - enabled: 1
+    path: Assets/Scenes/RestScene.unity
+    guid: 13d921490acf7f2448b6aa39a515d840
+  - enabled: 1
+    path: Assets/Scenes/ExitScene.unity
+    guid: b0539fdacf053ec478452dc1ac929253
   m_configObjects: {}
