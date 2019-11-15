@@ -6,15 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MenuScene.unity
-    guid: 4b44ac2f72c6cb44691429fed39ea7d1
+    path: Assets/Scenes/StartScene.unity
+    guid: a71413d27e4104d4e8f4fb8a793c6df8
   - enabled: 1
-    path: Assets/Scenes/GrazScene.unity
-    guid: 30993d6440550d249b80f1b9bc3e2335
+    path: Assets/Scenes/GrazProtocolScene.unity
+    guid: 83c7891314bdd624db670417230d414d
   - enabled: 1
     path: Assets/Scenes/RestScene.unity
     guid: 13d921490acf7f2448b6aa39a515d840
-  - enabled: 1
-    path: Assets/Scenes/ExitScene.unity
-    guid: b0539fdacf053ec478452dc1ac929253
   m_configObjects: {}
